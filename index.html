@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+
+	<head>
+		<title>Cardápio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+
+		<header>
+			<h1 class="hamb-name">Hamburguer Delivery</h1>
+		</header>
+
+		<form id="get-info">
+			
+			<h2 class="subtitle">Escolha seu hambúrguer</h2>
+			<article id="choices">
+				<label for="bread">Pão:</label>
+				<select name="pao" id="bread">
+					<option value="value0" selected>Escolha o pão:</option>
+					
+					<option value="value1">Pão Francês <span>(R$3,00)</span></option>
+					
+					<option value="value2">Pão Australiano <span>(R$8,00)</span></option>
+					
+					<option value="value3">Pão de Brioche <span>(R$6,00)</span></option>
+				</select>
+				<img id="bread-img" alt="Imagem do Pão">
+
+				<label for="burguer">Hamburguer:</label>
+				<select name="bife" id="burguer">
+					<option value="value0" selected>Escolha o tipo de hamburguer:</option>
+					
+					<option value="value1">Hambúrguer de picanha <span>(R$13,00)</span></option>
+					
+					<option value="value2">Hamburguer de costela <span>(R$10,00)</span></option>
+					
+					<option value="value3">Hamburguer Vegano <span>(R$12,00)</span></option>
+				</select>
+				<img id="burguer-img" src="" alt="Imagem do Hamburguer">
+
+				<label for="salad">Salada:</label>
+				<select name="salada" id="salad">
+					<option value="value0" selected>Escolha a salada:</option>
+					
+					<option value="value1">Alface <span>(R$1,50)</span></option>
+					
+					<option value="value2">Tomate <span>(R$1,50)</span></option>
+					
+					<option value="value3">Sem Salada <span>(R$0,00)</span></option>
+				</select>
+				<img id="salad-img" src="" alt="Imagem da Salada">
+
+				<label for="cheese">Queijo:</label>
+				<select name="queijo" id="cheese">
+					<option value="value0" selected>Escolha o queijo:</option>
+					
+					<option value="value1">Mussarela <span>(R$3,00)</span></option>
+					
+					<option value="value2">Prato <span>(R$3,00)</span></option>
+					
+					<option value="value3">Cheddar <span>(R$5,00)</span></option>
+				</select>
+				<img id="cheese-img" src="" alt="Imagem do Queijo">
+			</article>
+			
+			<div id="choices">
+				<button type="button" id="submit-btn" onclick="calcValue();">Fazer pedido</button>
+			</div>
+
+
+		</form>
+
+		<form id="set-info">
+			<article id="choices">
+				<p id="item"></p>
+
+				<p id="item1"></p>
+				
+				<p id="item2"></p>
+				
+				<p id="item3"></p>
+				
+				<p id="item4"></p>
+
+				<p>-------------------------------</p>
+				
+				<p id="result"></p>
+			</article>
+		</form>
+
+		<script src="script.js"></script>
+	</body>
+
+</html>

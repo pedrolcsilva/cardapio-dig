@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color: rgb(240, 214, 209);
+}
+
+img {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 236, 174);
+    height: 60px;
+}
+
+#get-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 50px;
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+#choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 3em;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 300px;
+}
+
+.hamb-name {
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(112, 55, 41);
+    text-decoration: overline underline 3px currentColor;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(26, 3, 3);
+    margin: 0;
+}
+
+select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+    width: 300px;
+}
+
+span{
+    font: 13px;
+    color: maroon;
+}
+
+#submit-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(107, 29, 29);
+    color: white;
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px black;
+}
+
+#submit-btn:hover {
+    background-color: white;
+    color: rgb(107, 29, 29);
+    border-radius: 25px;
+}
+
+#set-info {
+    display: none;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 50px;
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+#set-info #choices {
+    display: block;
+}
+
+p {
+    margin: 0;
+    line-height: 1.3em;
+}
+
+p#item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.3em;
+}
